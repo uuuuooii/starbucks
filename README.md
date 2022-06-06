@@ -175,3 +175,7 @@ function random(min, max) {
   return parseFloat((Math.random() * (max - min) + min).toFixed(2))
 }
 ```
+
+# 개선 사항
+- 앵커 태그를 눌렀을 때 실제 메뉴가 나오도록 설정.
+- 화면 크기 최대한 작게 & 크게 했을 때 크기 변화 자연스럽게 하기, 깨지지 않게 하기.
